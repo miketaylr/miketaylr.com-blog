@@ -1,0 +1,5 @@
+name: miketaylrdotcom
+permalink: /:year/:month/:title.html
+markdown: redcarpet
+pygments: true
+
