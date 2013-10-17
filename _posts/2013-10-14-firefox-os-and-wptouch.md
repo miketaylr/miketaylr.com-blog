@@ -17,6 +17,7 @@ One last thing to note is you might want to fix the broken gradient in the `.com
 {% highlight css %}
 .comment-bubble {
   /* ... */
+  background: #be4958;
   background: linear-gradient(-45deg, #a40717, #be4958 50%, #de939e);
   /* ... */
 }
