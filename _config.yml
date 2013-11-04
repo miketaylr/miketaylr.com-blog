@@ -3,3 +3,10 @@ permalink: /:year/:month/:title.html
 markdown: redcarpet
 pygments: true
 
+# RSS Feed Generator Plugin Jazz
+# https://github.com/agelber/jekyll-rss
+name: Mike Taylr Dot Com Web Blog
+url: https://miketaylr.com/posts/
+description: Erotic web browser fan-fiction.
+copyright: 3000
+author: Mike Taylor
