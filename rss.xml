@@ -8,7 +8,7 @@ layout: none
     <description>{{ site.description }}</description>
     <link>{{ site.url }}</link>
     <copyright>{{ site.copyright }}</copyright>
-    <atom:link href="{{ site.url }}rss.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}/rss.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title }}</title>
