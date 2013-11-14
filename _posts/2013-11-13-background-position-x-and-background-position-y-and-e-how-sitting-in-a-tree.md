@@ -22,11 +22,11 @@ It's been a while since I've been a fulltime frontend-developer*, so I totally f
 
 [Bug 733791][bug] jostled my memory though. As I noted in my [Thunder Plains talk][talk], ehow.com has been kind enough to update their -webkit-prefixed background gradients and layout styles, but the layout of the button text is still a little wonky.
 
-<img src="/assets/ehow-buttons.png" alt="screenshot of some buttons on the mobile version of ehow.com">
+<img src="https://miketaylr.com/posts/assets/ehow-buttons.png" alt="screenshot of some buttons on the mobile version of ehow.com">
 
 You see, the "home food", "mom tech", "style money" and "health crafts" buttons should actually look like this:
 
-<img src="/assets/ehow-webkit-buttons.png" alt="screenshot of some buttons on the mobile version of ehow.com, as seen in a WebKit browser">
+<img src="https://miketaylr.com/posts/assets/ehow-webkit-buttons.png" alt="screenshot of some buttons on the mobile version of ehow.com, as seen in a WebKit browser">
 
 {% highlight css %}
  .ChannelListing .mom-tech{
