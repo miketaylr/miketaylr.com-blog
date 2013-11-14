@@ -38,6 +38,8 @@ p {
   background-color: WhiteSmoke;
   padding: 1em;
   max-width: 600px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 .post ul, .post ol {
