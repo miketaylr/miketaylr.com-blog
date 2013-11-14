@@ -38,7 +38,7 @@ You see, the "home food", "mom tech", "style money" and "health crafts" buttons 
 
 {% endhighlight %}
 
-Of course, it's not too much work to combine those into a single `background-position` property and then it works everywhere. What's more interesting to me is the fact that Firefox is now the only browser that doesn't support this non-standard IE invention (with Opera having sacrificed Presto to pay tribute to Blink). [Bug 550426][bug2] was opened in 2010 requesting that support be added. [Comment 21][21] suggests that it's a damned if you do (possibly break `getComputedStyle`, damned if you don't situation (have wonky sprite layout in sites like ehow.com).
+Of course, it's not too much work to combine those into a single `background-position` property and then it works everywhere. What's more interesting to me is the fact that Firefox is now the only browser that doesn't support this non-standard IE invention (with Opera having sacrificed Presto to pay tribute to Blink, thereby gaining support). [Bug 550426][bug2] was opened in 2010 requesting that support be added. [Comment 21][21] suggests that it's a damned if you do (possibly break `getComputedStyle`, damned if you don't situation (have wonky sprite layout in sites like ehow.com).
 
 I haven't made up my own mind whether I'm for or against Gecko supporting these properties, but it's something I'll be keeping on my radar. But if you're making sites today I would shy away from its usage (and stick to the good ol' `background-position`) until browser support is 100%.
 
