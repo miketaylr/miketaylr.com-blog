@@ -69,7 +69,7 @@ HTTP/1.1 200 OK
 wapbypass: 1
 ```
 
-Success! The server rewards you with a 200 OK and 1 `wapbypass` point, which is probably like bitcoins. Your browser parses and downloads all the assets, renderes it and... you're actually on some kind of [weird site that allows you to subscribe to SMS updates of half-naked people][maismob], not the mobile site you entered into the 🍔 browser.
+Success! The server rewards you with a 200 OK and 1 `wapbypass` point, which is probably like bitcoins. Your browser parses and downloads all the assets, renders it and... you're actually on some kind of [weird site that allows you to subscribe to SMS updates of half-naked people][maismob], not the mobile site you entered into the 🍔 browser.
 
 So you give up on the mobile web browser business entirely and think about disrupting the VHS rental card membership market by coming up with some cloud platform to consolidate those cumbersome [Blockbuster][bb] and [West Cost Video][wc] cards into a single card. BAM.
 
