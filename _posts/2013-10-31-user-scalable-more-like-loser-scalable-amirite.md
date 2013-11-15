@@ -16,6 +16,7 @@ Let me show you how people try to disable viewport zooming on the web. Some of t
 [`<meta name="viewport" content="user-scalable=no">`][no]
 [`<meta name="viewport" content="user-scalable=0">`][0]
 [`<meta name="viewport" content="user-scalable=false;">`][false]
+[`<meta name="viewport" content="width=device-width, user-scalable=-1;" />`][-1]
 [`<meta name="viewport" user-scalable="0;" />`][0;]
 [`<meta name="viewport" content="maximum-scale=1.0, user-scalable=2.0;" />`][2.0]
 [`<meta name="viewport" content="maximum-scale=3.0, user-scalable=3;"/>`][3]
@@ -31,3 +32,4 @@ Let me show you how people try to disable viewport zooming on the web. Some of t
 [devo]: http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/
 [mdn]: https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag
 [docs]: https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html#//apple_ref/doc/uid/TP40006509-SW26
+[-1]: https://ww70.itau.com.br/M/Institucional/IncentivoAplicativo.aspx
