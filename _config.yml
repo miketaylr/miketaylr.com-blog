@@ -3,8 +3,7 @@ permalink: /:year/:month/:title.html
 markdown: redcarpet
 pygments: true
 
-# RSS Feed Generator Plugin Jazz
-# https://github.com/agelber/jekyll-rss
+# Used for my rss.xml template
 name: Mike Taylr Dot Com Web Log
 url: https://miketaylr.com/posts
 description: Erotic web browser fan-fiction.
