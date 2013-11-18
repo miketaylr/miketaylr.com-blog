@@ -12,6 +12,8 @@ Over the past few years I've accumulated a very small collection of devices, pho
 
 So I made this repo on Github as an experiment: [devicelab.txt](https://github.com/miketaylr/devicelab.txt) (or jump to the [list directly](https://github.com/miketaylr/devicelab.txt/blob/master/devicelab.txt)).
 
-If you are developing a site and want to know if the fixed header navbar is behaving in Firefox OS, [open an issue](https://github.com/miketaylr/devicelab.txt/issues/new). Or if you want a screenshot of the network panel of the Safari Web Inspector for your responsive images prollyfill test page on (my wife's) iOS7 Safari or the iPhone 3 I inherited from my mom... you get the picture.
+If you are developing a site and want to know if the fixed header navbar is behaving in Firefox OS, [open an issue](https://github.com/miketaylr/devicelab.txt/issues/new). Or if you want a screenshot of the network panel of the Safari Web Inspector for your responsive images prollyfill test page on (my wife's) iOS7 Safari or the iPhone 3 I inherited from my mom... you get the [`<picture>`][wokkawokka].
 
 It would be cool for other people to have similar lists too. Maybe.
+
+[wokkawokka]: https://miketaylr.com/posts/assets/wokkawokka.gif
