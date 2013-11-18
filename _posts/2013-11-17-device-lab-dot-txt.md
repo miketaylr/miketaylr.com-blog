@@ -6,7 +6,7 @@ date:   2013-11-17
 
 The other day I had an idea when a friend on IRC asked for a quick sanity check on a testcase in Chrome on iOS and Android.
 
-What if we could open Github issues on the devices we don't personally have, but someone else does to ask for a quick test or screenshot?
+What if we could open Github issues on the devices we don't personally have (but someone we know does) to ask for a quick test or screenshot?
 
 Over the past few years I've accumulated a very small collection of devices, phones and tablets and other weird things like gaming consoles with web browsers (more than half of which have cracked screens).
 
