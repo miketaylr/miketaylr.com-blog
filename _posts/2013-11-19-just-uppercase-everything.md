@@ -32,7 +32,7 @@ AppHelper.isFullScreen = function() {
 };
 ```
 
-My favorite part is uppercase Screen in `webkitIsFullScreen` vs lowercase screen in `webkitDisplayingFullscreen`.
+(My favorite part is uppercase Screen in `webkitIsFullScreen` vs lowercase screen in `webkitDisplayingFullscreen`.)
 
 And here's one I randomly grabbed from [Github search][ghs]:
 
