@@ -53,6 +53,14 @@ for (var k in window) {
 window.REQUESTFULLSCREEN();
 ```
 
+Update: Don't actually copy and past that into your site. It's not entirely clear if tweet-code has license issues. Will update again when Legal unblocks me from twitter.
+
+Update 2: Seriously don't even look at that code.
+
+```
+<lawnsea> no i didn't open source that. there's a seat license
+```
+
 [bf]: http://en.wikipedia.org/wiki/Back-formation
 [anal]: http://en.wikipedia.org/wiki/Analogy#Linguistics
 [hulu]: http://www.hulu.com/site-player/html5/js/app_v2.js
