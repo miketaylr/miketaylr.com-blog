@@ -12,14 +12,17 @@ But I was wrong, <a href="https://miketaylr.com/posts/assets/crickets.gif">turns
 
 Per the [CSS 2.1 spec][spec], implementations should generate anonymous table elements around elements with CSS table model display values (if needed). In the case of the Google Plus menu, `display:table-cell` elements parented by an `<a>` like so:
 
+<pre class="ascii">
 &lt;li&gt;
   &lt;a&gt;
     &lt;div&gt;Home&lt;/div&gt;
   &lt;/a&gt;
 &lt;/li&gt;
+</pre>
 
 The `<div>` requires an anonymous table-row box ("anon-tr") parent, and finally an anonymous table box to wrap that. There's two kinds of table boxes you can end up with: table and inline-table ("anon-it"), determined by the parent of "Home". In this case, "Home"'s parent is an &lt;a&gt;, which is by default an inline box. So you should end up with something like this:
 
+<pre class="ascii">
 &lt;li&gt;
   &lt;a&gt;
  ╔═══════anon-it═══════╗
@@ -29,10 +32,12 @@ The `<div>` requires an anonymous table-row box ("anon-tr") parent, and finally 
  ╚═════════════════════╝
   &lt;a&gt;
 &lt;/li&gt;
+</pre>
 
 
 In Gecko, Presto, and IE, this is the (correct) result:
 
+<pre class="ascii">
 ┌──────────────viewport────────────┐
 │&lt;li&gt;                              │
 │┌─────────────┐                   │
@@ -42,11 +47,13 @@ In Gecko, Presto, and IE, this is the (correct) result:
 │└─────────────┘                   │
 │&lt;li&gt;                              │
 └──────────────────────────────────┘
+</pre>
 
 Not very usable. In fact, the bug reporter assumed that it was broken becuase they failed to click exactly on the width of the link text.
 
 WebKit and Blink browsers [have][webkit] [bugs][blink], it turns out, where they generate a table box, rather than an inline-table box so the `<a>` expands to the entire width of its parent `<li>` and is clickable.
 
+<pre class="ascii">
 ┌────────────────viewport──────────┐
 │&lt;li&gt;                              │
 │┌────────────────────────────────┐│
@@ -56,6 +63,7 @@ WebKit and Blink browsers [have][webkit] [bugs][blink], it turns out, where they
 │└────────────────────────────────┘│
 │&lt;li&gt;                              │
 └──────────────────────────────────┘
+</pre>
 
 If you find yourself in a similar situation, the simplest fix is to add an explicit `display: block` to the wrapping `<a>` element and it will work as expected in all browsers.
 

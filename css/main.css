@@ -56,6 +56,12 @@ p {
   border: none;
 }
 
+.post pre.ascii {
+  white-space: nowrap;
+  background: #fff;
+  border: none;
+}
+
 /* syntaxxxxxxxxxxxxxx */
 
 .highlight  { background: #ffffff; }
