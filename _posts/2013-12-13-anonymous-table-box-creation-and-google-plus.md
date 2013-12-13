@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Anonymous table box creations and Google Plus Mobile
+title:  Anonymous table box creation and Google Plus Mobile
 date:   2013-12-13
 ---
 
