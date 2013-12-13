@@ -33,29 +33,29 @@ The `<div>` requires an anonymous table-row box ("anon-tr") parent, and finally 
 
 In Gecko, Presto, and IE, this is the (correct) result:
 
-┌────────────────viewport─────────────────┐
-│&lt;li&gt;                                     │
-│┌─────────────┐                          │
-││&lt;a&gt;clkbl area│                          │
-││  &lt;div&gt;&lt;/div&gt;│                          │
-││&lt;/a&gt;         │                          │
-│└─────────────┘                          │
-│&lt;li&gt;                                     │
-└─────────────────────────────────────────┘
+┌──────────────viewport────────────┐
+│&lt;li&gt;                              │
+│┌─────────────┐                   │
+││&lt;a&gt;clkbl area│                   │
+││  &lt;div&gt;&lt;/div&gt;│                   │
+││&lt;/a&gt;         │                   │
+│└─────────────┘                   │
+│&lt;li&gt;                              │
+└──────────────────────────────────┘
 
 Not very usable. In fact, the bug reporter assumed that it was broken becuase they failed to click exactly on the width of the link text.
 
 WebKit and Blink browsers [have][webkit] [bugs][blink], it turns out, where they generate a table box, rather than an inline-table box so the `<a>` expands to the entire width of its parent `<li>` and is clickable.
 
-┌────────────────viewport─────────────────┐
-│&lt;li&gt;                                     │
-│┌───────────────────────────────────────┐│
-││&lt;a&gt;           clickable area           ││
-││  &lt;div&gt;&lt;/div&gt;                          ││
-││&lt;/a&gt;                                   ││
-│└───────────────────────────────────────┘│
-│&lt;li&gt;                                     │
-└─────────────────────────────────────────┘
+┌────────────────viewport──────────┐
+│&lt;li&gt;                              │
+│┌────────────────────────────────┐│
+││&lt;a&gt;      clickable area         ││
+││  &lt;div&gt;&lt;/div&gt;                   ││
+││&lt;/a&gt;                            ││
+│└────────────────────────────────┘│
+│&lt;li&gt;                              │
+└──────────────────────────────────┘
 
 If you find yourself in a similar situation, the simplest fix is to add an explicit `display: block` to the wrapping `<a>` element and it will work as expected in all browsers.
 
