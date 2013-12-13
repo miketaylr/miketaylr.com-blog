@@ -18,7 +18,7 @@ Per the [CSS 2.1 spec][spec], implementations should generate anonymous table el
   &lt;/a&gt;
 &lt;/li&gt;
 
-The `<div>` requires an anonymous table-row box ("anon-tr") parent, and finally an anonymous table box to wrap that. There's two kinds of boxes you can end up with: table and inline-table ("anon-it"), determined by the parent of "Home". In this case, "Home"'s parent is an &lt;a&gt;, which is by default an inline box. So you should end up with something like this:
+The `<div>` requires an anonymous table-row box ("anon-tr") parent, and finally an anonymous table box to wrap that. There's two kinds of table boxes you can end up with: table and inline-table ("anon-it"), determined by the parent of "Home". In this case, "Home"'s parent is an &lt;a&gt;, which is by default an inline box. So you should end up with something like this:
 
 &lt;li&gt;
   &lt;a&gt;
