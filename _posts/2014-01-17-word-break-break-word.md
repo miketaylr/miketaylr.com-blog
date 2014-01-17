@@ -29,7 +29,7 @@ The offending CSS is here:
 }
 ```
 
-So why aren't there any hyphens appearing in Firefox, which supports CSS hyphens? I [binged][ddg] some things and lots of example code on the web looks pretty darn similar to what wired.com has.
+So why aren't there any hyphens appearing in Firefox, which supports CSS hyphens? I [binged][ddg] some things and lots of example code on the web looks pretty darn similar to what wired.com has. It turns out `hyphens: auto` here won't actually do what the authors intended.
 
 After reading some specs and stackoverflows I learned that `word-break: break-all` is really intended for predominantly CJK scripts (from what I gather), where breaking up a "word" (grapheme cluster?) isn't such a big deal, and `word-wrap: break-word` really is for non-CJK scripts.
 
