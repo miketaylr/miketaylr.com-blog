@@ -49,7 +49,7 @@ So let's go back to the bug.
 
 Even though Chrome doesn't support CSS hyphens, it understands `word-break: break-word` and treats it like `word-wrap: break-word`. Safari does the same, but it actually supports CSS hyphens so it looks a little nicer. Safari also appears to add hyphens to non-CJK text when using `word-break: break-all` (even without `hyphens: auto`). You can check out this [test page I made][test] if you're curious.
 
-From what I can tell, IE7 (and below?) treated `word-break: break-word` as a synonym to `word-wrap: break-word` (or at least it did the same thing). At some point WebKit needed that for compat, so they added it. Note that IE8 and above, if you can trust IE11 in that version's document mode doesn't do anything with `word-wrap: break-word`. See this [screenshot from the bug][ie].
+From what I can tell, IE7 (and below?) treated `word-break: break-word` as a synonym to `word-wrap: break-word` (or at least it did the same thing). At some point WebKit needed that for compat, so they added it. Note that IE8 and above (if you can trust IE11 in that version's document mode) doesn't do anything with `word-wrap: break-word`. See this [screenshot from the bug][ie].
 
 Now the 64 bitcoin question is, "is `word-break: break-word` important for web compatibility today?" It seems like wired.com is relying on that behavior (on accident, I think), but we'll do our best to ask them to remove it (and remove `word-break: break-all` too&mdash;they already have `word-wrap: break-word` on `body`, which is all they need).
 
@@ -57,5 +57,5 @@ Now the 64 bitcoin question is, "is `word-break: break-word` important for web c
 [ddg]: https://lmddgtfy.net/?q=bing
 [spec]: http://www.w3.org/TR/css3-text/#word-break-property
 [render]: https://github.com/WebKit/webkit/blob/e887e1aa1b7be17a8d160e869790c320b08f7ae0/Source/WebCore/rendering/style/RenderStyleConstants.h#L219-L223
-[test]: https://bug959735.bugzilla.mozilla.org/attachment.cgi?id=8361943
+[test]: https://bug959735.bugzilla.mozilla.org/attachment.cgi?id=8361963
 [ie]: https://bug959735.bugzilla.mozilla.org/attachment.cgi?id=8361967
