@@ -29,6 +29,13 @@ p {
   max-width: 600px;
 }
 
+p code {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
 .footer {
   margin-top: 2em;
 }
