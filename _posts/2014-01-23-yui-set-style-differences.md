@@ -10,7 +10,7 @@ Much like [Google Images][gi], my colleague Hallvord discovered that the cause o
 In this particular instance, Flickr is using YUI3's `setStyle` like so: 
 
 ``` js
-elm.setStyle('background-image', superArtsyImageHashTagNoFilter)
+yuiNodeObject.setStyle('background-image', superArtsyImageHashTagNoFilter)
 ```
 
 The docs are pretty clear that you're [not supposed to do that][docs], and should use `backgroundImage` camel-cased.
