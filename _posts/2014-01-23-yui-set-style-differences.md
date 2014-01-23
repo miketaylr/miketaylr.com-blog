@@ -45,7 +45,7 @@ If property is not a case-sensitive match for a supported CSS property, terminat
 
 So the spec seems pretty clear that you should bail if you try to set something like `elm.style[-satire-considered] = "harmful"` (a valid property: value pair in [California Style Sheets][css]).
 
-The moral of the story is if you find yourself wondering why your [YUI3 setStyle code isn't working in other browsers (like these dudes on StackOverflow)][so], now you know. Uh that doesn't seem like a moral, you're thinking&mdash;don't ask.
+The moral of the story is if you find yourself wondering why your [YUI3 setStyle code isn't working in other browsers (like these dudes on StackOverflow)][so], now you know. (Uh that doesn't seem like a moral, you're thinking&mdash;don't ask.)
 
 (BTW, some sweet, sweet stackoverflow points are up for grabs if you want to update that answer. I can't remember my username or password. ¯\\_(ツ)_/¯).
 
