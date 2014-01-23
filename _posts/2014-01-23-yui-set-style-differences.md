@@ -7,7 +7,11 @@ date:   2014-01-23
 
 Much like [Google Images][gi], my colleague Hallvord discovered that the cause of [a bug over at Flickr][bug] is due to passing the `style` property of a DOM element a css-cased (`background-image`) property, rather than camel-cased (`backgroundImage`) one.
 
-In this particular instance, Flickr is using YUI3's `setStyle` like so: `elm.setStyle('background-image', superArtsyImageHashTagNoFilter)`.
+In this particular instance, Flickr is using YUI3's `setStyle` like so: 
+
+``` js
+elm.setStyle('background-image', superArtsyImageHashTagNoFilter)
+```
 
 The docs are pretty clear that you're [not supposed to do that][docs], and should use `backgroundImage` camel-cased.
 
