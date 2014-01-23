@@ -38,11 +38,9 @@ Setting the camel-cased attribute attribute must invoke setProperty() with the f
 </blockquote>
 
 Step 3 of the `setProperty` method of the `CSSStyleDeclaration` interface is defined as:
-
 <blockquote>
 
 If property is not a case-sensitive match for a supported CSS property, terminate this algorithm.
-
 </blockquote>
 
 So the spec seems pretty clear that you should bail if you try to set something like `elm.style[-satire-considered] = "harmful"` (a valid property: value pair in [California Style Sheets][css]).
