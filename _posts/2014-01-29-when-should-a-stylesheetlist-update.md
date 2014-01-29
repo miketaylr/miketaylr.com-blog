@@ -8,7 +8,7 @@ Depends on who you ask, I guess.
 
 If you add a dynamic stylesheet to a document, Firefox, Internet Explorer, and Presto Opera (RIP) will immediately add a `CSSStyleSheet` object to its `StyleSheetList` collection (that's what you get back from `document.styleSheets)`.
 
-Chrome and Safari (and presumably other WebKittish browsers) will wait at least until the stylesheet is loaded (approximately when the `load` event of the `link` element fires).
+Chrome and Safari and new Opera (and presumably other WebKittish browsers) will wait at least until the stylesheet is loaded (approximately when the `load` event of the `link` element fires).
 
 Here's a [test page][testpage] that demonstrates the behavior. 
 
