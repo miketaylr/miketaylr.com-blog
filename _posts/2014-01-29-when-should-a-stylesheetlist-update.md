@@ -25,4 +25,4 @@ Perhaps the real lesson here is that "Scampi Bug Yeti" is an actual meaning<stri
 
 [testpage]: http://dhtml5.com/tmp/stylesheets-length.html
 [spec]: http://dev.w3.org/csswg/cssom/#css-style-sheet-collections
-[chikuwa]: https://github.com/ameba-proteus/chikuwa.js/blob/master/chikuwa.js#L1067-L1069
+[chikuwa]: https://github.com/ameba-proteus/chikuwa.js/blob/0397805af25631a43d503212d5f21db6f2a35e01/chikuwa.js#L1067-L1069
