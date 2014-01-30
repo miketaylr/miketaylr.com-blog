@@ -22,7 +22,10 @@ See [this library][chikuwa] for an example where such a thing happens, causing t
 
 Perhaps the real lesson here is that "Scampi Bug Yeti" is an actual meaning<strike>ful</strike>less anagram for "spec ambiguity".
 
+**Update**: Simon Pieters encouraged me to [file a bug][bug] on the spec. I think he's trying to ruin my anagram.
+
 
 [testpage]: http://dhtml5.com/tmp/stylesheets-length.html
 [spec]: http://dev.w3.org/csswg/cssom/#css-style-sheet-collections
 [chikuwa]: https://github.com/ameba-proteus/chikuwa.js/blob/0397805af25631a43d503212d5f21db6f2a35e01/chikuwa.js#L1067-L1069
+[bug]: https://www.w3.org/Bugs/Public/show_bug.cgi?id=24449
