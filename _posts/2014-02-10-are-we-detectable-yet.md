@@ -14,6 +14,8 @@ A few things to consider:
 
 **The list of browsers tested is not representative of the web at large**. I'd like to include data on non-Mozilla mobile web browsers, but don't really have the bandwidth to do so right now. Again, [file an issue][issue] or send a pull request if you'd like to help with this.
 
+Note: John David Dalton pulled me aside and gave me the "Son, I'm disappointed in you" talk. I should be clear that it's my opinion that UA sniffing is dirty work, prone to bugs. However, I think it's important for users to get the correct mobile content right now. We can worry about theoretical purity when we have a better standard solution. Sorry Dad.
+
 (Special thanks to the good people at andyet for [letting me steal the CSS][license] from [http://iswebrtcreadyyet.com/][webrtc].)
 
 [awdy]: http://miketaylr.github.io/arewedetectableyet/
