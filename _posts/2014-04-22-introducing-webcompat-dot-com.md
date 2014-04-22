@@ -23,6 +23,26 @@ So. If any of that was remotely interesting to you, and if you're into open sour
 
 Happy bug reporting.
 
+## Update
+
+FAQZO (Frequently [Asked Questions by Zach (Once)][qs])
+
+  Q: Is the target market newbies that are afraid of bugzillas?
+
+  A: Yeah, in part. Browser bug trackers can be confusing. Or they require a new account. Or they can feel like black holes.
+
+  Q: Or lazy people?
+
+  A: Yeah, why not.
+
+  Q: Both?
+
+  A: OK, Sure.
+
+  Q: Can I just cc stuff from twitter?
+
+  A: If by "cc stuff from twitter" you mean create a meaningful report that links to a tweet, absolutely. We could probably do some sweet Twitter integration or whatever too.
+
 [wc]: http://webcompat.com
 [alexa]: http://alexaroman.com/
 [moz]: https://twitter.com/mozwebcompat
@@ -32,3 +52,4 @@ Happy bug reporting.
 [84]: https://github.com/webcompat/webcompat.com/issues/84
 [gig]: https://github.com/GIGANTOR
 [nep]: https://github.com/Neptr
+[qs]: https://twitter.com/zachleat/status/458722412289212416
