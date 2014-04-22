@@ -23,7 +23,7 @@ So. If any of that was remotely interesting to you, and if you're into open sour
 
 Happy bug reporting.
 
-## Update
+<h2 id="faqzo">Update</h2>
 
 FAQZO (Frequently [Asked Questions by Zach (Once)][qs])
 
