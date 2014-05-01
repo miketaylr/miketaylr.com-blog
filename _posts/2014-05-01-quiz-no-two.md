@@ -6,7 +6,7 @@ date:   2014-05-01
 
 Given the following user agent string `ua` and function expression `r`,
 
-```
+``` js
 var ua = "Mozilla/5.0 (Android; Mobile; rv:31.0) Gecko/31.0 Firefox/31.0"
 
 r = function (e) {
