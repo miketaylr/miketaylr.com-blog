@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A quiz about RegExp.prototype.exec return values and numeric indexes (or indicies or however you people pluralize that word).
+title:  A quiz about RegExp.prototype.exec return values and numeric indexes (or indices or however you people pluralize that word).
 date:   2014-05-01
 ---
 
