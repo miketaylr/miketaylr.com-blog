@@ -19,7 +19,7 @@ const orientationMap = {
 window["orientation"] = orientationMap[window.screen.mozOrientation]
 ```
 
-You just need to worry about writing adding the `orientation` property before any other JS runs and take care to call `orientationchange` events, etc.
+You just need to worry about writing adding the `orientation` property before any other JS runs and take care to call `orientationchange` handlers, dispatch events, etc.
 
 I've only got two manual tests at [http://miketaylr.github.io/orientation-shim/][tests] so it's probably loaded with bugs&mdash;but a few quick tests on sites like [http://newyork.schmap.com/][schmap] seem promising.
 
