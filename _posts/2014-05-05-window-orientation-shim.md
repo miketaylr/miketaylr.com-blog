@@ -27,6 +27,14 @@ I've only got two manual tests at [http://miketaylr.github.io/orientation-shim/]
 
 You can [grab the .xpi][xpi] (or [build it][build], whatever) and give it a spin if you're into that. For a limited time I'm [taking bug reports][bugs] at no charge to you.
 
+UPDATE:
+
+Rich Tibbett writes ([1][1] & [2][2]):
+
+"Nice post but I don't think it's that simple. Lots of tablets are [landscape-primary] yet window.orientation == 0. Any relationship between orientation angle and portrait/landscape is coincidental. That's why we need the orientation angle."
+
+So perhaps I have more work to to.
+
 [tests]: http://miketaylr.github.io/orientation-shim/
 [spec]: http://www.w3.org/TR/screen-orientation/
 [prefix]: https://developer.mozilla.org/en-US/docs/Web/API/Screen.orientation#Notes
@@ -35,3 +43,5 @@ You can [grab the .xpi][xpi] (or [build it][build], whatever) and give it a spin
 [gh]: https://github.com/miketaylr/orientation-shim
 [schmap]: http://newyork.schmap.com/
 [bugs]: https://github.com/miketaylr/orientation-shim/issues
+[1]: https://twitter.com/richtibbett/status/463370882560565248
+[2]: https://twitter.com/richtibbett/status/463371309838528512
