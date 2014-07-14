@@ -12,7 +12,7 @@ We've also got a fancy new privacy policy, the number one requested feature by l
 
 A special thanks to the people who [volunteered their time and skills][c] to this project, especially [magsout][m], [karlcow][k], [calexity][ca], and [tagawa][t].
 
-If you'd like to get involved hacking on webcompat.com, drop by #webcompat on [Mozilla's IRC network][irc] or dive into one of our [open issues][issues]. And naturally since I'm involved, there's probably tons of bugs deserve reports and patches.
+If you'd like to get involved hacking on [webcompat.com][wc], drop by #webcompat on [Mozilla's IRC network][irc] or dive into one of our [open issues][issues]. And naturally since I'm involved, there's probably tons of bugs that deserve reports and patches.
 
 [wc]: http://webcompat.com
 [ie]: http://webcompat.com/issues/181
