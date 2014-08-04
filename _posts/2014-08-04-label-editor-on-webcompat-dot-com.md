@@ -8,9 +8,11 @@ Today we finally deployed the ability to edit labels on issues at webcompat, for
 
 Here's what it looks like:
 
-<img src="1.png" alt="label editor cog">
+<img src="https://miketaylr.com/posts/assets/1.png" style="border: 1px solid #ccc" alt="label editor cog">
 
-<img src="2.png" alt="open label editor">
+Click or tap on the cog to open the editor:
+
+<img src="https://miketaylr.com/posts/assets/2.png" style="border: 1px solid #ccc" alt="open label editor">
 
 It works basically the same way that GitHub's issue label editor-widget-ui-thingy does, with one important difference: on GitHub, only repo-owners or collaborators can set labels on an issue. Through the power of programming, gritty determination, and a pull ourselves up by our own bootstraps attitude [we work around this][api] and let any auth'd user add or remove labels.
 
