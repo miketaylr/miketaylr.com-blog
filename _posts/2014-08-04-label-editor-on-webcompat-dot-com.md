@@ -18,7 +18,10 @@ It works basically the same way that GitHub's issue label editor-widget-ui-thing
 
 So if you've wanted to help out on webcompat.com but aren't quite sure how to get started, adding labels like `mobile`, `firefox`, `needsinfo`, etc. to issues is a great way to help with triage.
 
+Here's an issue with no labels to get you started: [http://webcompat.com/issues/253][253]
+
 As usual, please report any issues at [GitHub][issues].
 
 [api]: https://github.com/webcompat/webcompat.com/blob/748a8a401675986dfa415937d1d9577917943cc9/webcompat/api/endpoints.py#L107-L118
 [issues]: https://github.com/webcompat/webcompat.com/issues/
+[253]: http://webcompat.com/issues/253
