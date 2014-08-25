@@ -16,7 +16,7 @@ Based on my [comment][comment], I had forgotten this distinction and thought Wir
 
 What I didn't know, but Hallvord did, was that Mobify.js uses `document.write()` to re-write the entire content of a site with a mobile-ified version of a site (or something like that). And naturally it turns out that Gecko and Blink/WebKit have different behavior with respect to keeping references to script after `document.write()` overwrites the entire document.
 
-Here's a [test page][test] that shows us that any global references before `document.write()` replaces a document do not survive in Firefox/Presto/(maybe IE?), but do survive in Chrome/Safari.
+Here's a [test page][test] that shows us that any global references before `document.write()` replaces a document do not survive in Firefox/Presto Opera/(maybe IE?), but do survive in Chrome/Safari.
 
 So with Zepto defined before the call to `document.write()` to moblify the site, Blink/WebKit browsers can call Zepto's `tap()` method and get some sweet expanding hamburger helper sub-menu action. But nobody else can.
 
