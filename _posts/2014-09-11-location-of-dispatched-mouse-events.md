@@ -10,7 +10,7 @@ We had an interesting issue get reported on webcompat.com, ["Issue 171: time.com
 
 Lucky for me, the site isn't that complicated&mdash;it's your run-of-the-mill Backbone.js app with obligatory can't-read-anything-until-you-dismiss-the-in-your-face-underwear advertising.
 
-<img src="http://miketaylr.com/posts/assets/undies.png" alt="screenshot of time.com">
+<img src="https://miketaylr.com/posts/assets/undies.png" alt="screenshot of time.com">
 
 The listeners for the "rail handle" are set up here:
 
