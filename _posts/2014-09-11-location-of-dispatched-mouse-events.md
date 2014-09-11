@@ -8,7 +8,7 @@ date:   2014-09-11
 
 We had an interesting issue get reported on webcompat.com, ["Issue 171: time.com - Clicking on 'Tap' doesn't toggle menu"][issue] that was only affecting Firefox Mobile. Essentially, tapping on a little "rail-handle" to slide in some side content would result in the content sliding in then immediately sliding out.
 
-Lucky for me, the site isn't that complicated&mdash;it's a run-of-the-mill Backbone.js app with obligatory can't-read-anything-until-you-dismiss-the-in-your-face-underwear advertising.
+Lucky for me, the site isn't that complicated&mdash;it's your run-of-the-mill Backbone.js app with obligatory can't-read-anything-until-you-dismiss-the-in-your-face-underwear advertising.
 
 <img src="http://miketaylr.com/posts/assets/undies.png" alt="screenshot of time.com">
 
