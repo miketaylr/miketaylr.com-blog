@@ -37,7 +37,7 @@ input[type="checkbox"] {
 
 So the reason it works in Desktop, but not mobile Firefoxes is because the latter set a `max-width` property on checkboxes. The simple workaround to the Wikipedia bug would be to set a `max-width` in addition to a `width`.
 
-And if you check out this demo I <strike>stole</strike> modified from the [aforementioned blog post][hack] in Firefox OS or Firefox for Android, it's easy to see how mobile Firefox browsers really struggle with this technique. I've removed `opacity: 0` and added an `outline` (because of that `!important` border declaration in the UA style sheet. 💩) to make it extra clear. ([Here's a screenshot][screenshot] for those on Freedom-hating platforms (and non-mobile readers)).
+And if you [check out this demo][demo] I <strike>stole</strike> modified from the [aforementioned blog post][hack] in Firefox OS or Firefox for Android, it's easy to see how mobile Firefox browsers really struggle with this technique. I've removed `opacity: 0` and added an `outline` (because of that `!important` border declaration in the UA style sheet. 💩) to make it extra clear. ([Here's a screenshot][screenshot] for those on Freedom-hating platforms (and non-mobile readers)).
 
 So without adding `max-width` or `max-height` it *does* work. It's just the version of *working* that requires you to guess where a hidden checkbox is (and have fingers delicate enough to use it).
 
