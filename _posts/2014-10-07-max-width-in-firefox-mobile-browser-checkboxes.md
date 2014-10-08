@@ -4,7 +4,7 @@ title:  width and max-width on &lt;input type=checkbox&gt; in Firefox Mobile
 date:   2014-10-07
 ---
 
-A bug #[1078393][bug], with the ever so descriptive title *'Images' and 'Beta' text is cutoff in Wikipedia*, describes a problem with the mobile Wikipedia settings checkboxes displaying incorrectly in Firefox OS, like so:
+Bug [1078393][bug], with the ever so descriptive title *'Images' and 'Beta' text is cutoff in Wikipedia*, describes a problem with the mobile Wikipedia settings checkboxes displaying incorrectly in Firefox OS, like so:
 
 <img src="https://miketaylr.com/posts/assets/cutoff.png" style="border:1px solid #ccc; max-width: 100%;">
 
