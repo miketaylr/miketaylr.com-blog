@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  width and max-width on &lt;input type=checkbox&gt; in mobile Firefox browsers
+title:  width and max-width on &lt;input type=checkbox&gt; in Firefox Mobile
 date:   2014-10-07
 ---
 
-[1078393][bug], with the ever so descriptive title *'Images' and 'Beta' text is cutoff in Wikipedia*, describes a problem with the mobile Wikipedia settings checkboxes displaying incorrectly in Firefox OS, like so:
+A bug #[1078393][bug], with the ever so descriptive title *'Images' and 'Beta' text is cutoff in Wikipedia*, describes a problem with the mobile Wikipedia settings checkboxes displaying incorrectly in Firefox OS, like so:
 
 <img src="https://miketaylr.com/posts/assets/cutoff.png" style="border:1px solid #ccc; max-width: 100%;">
 
-A [friendly Wikimedia developer mentioned][comment] that they're using a technique to do custom checkboxes (inspired by this [blog post from a few years back][hack]), but mentioned that there's no problem with Firefox Desktop. He says the problem is that we're not letting the (hidden) input stretch to the declared `width` which causes the mis-alignment and overlapping of the custom-styled generated content checkbox thingy.
+A [friendly Wikimedia developer mentioned][comment] that they're using a custom technique to style checkboxes (inspired by this [blog post from a few years back][hack]), but mentioned that there's no problem with Firefox Desktop. He says the problem is that we're not letting the (hidden) input stretch to the declared `width` which causes the mis-alignment and overlapping of the custom-styled generated content checkbox thingy.
 
 OK. Let's check out what's going on in the user agent stylesheet for forms (that's the built-in CSS file that defines how form elements display by default) of Desktop and Firefox OS/Firefox for Android, ignoring basically everything except for `height` or `width` properties.
 
@@ -39,7 +39,7 @@ So the reason it works in Desktop, but not mobile Firefoxes is because the latte
 
 And if you check out this demo I <strike>stole</strike> modified from the [aforementioned blog post][hack] in Firefox OS or Firefox for Android, it's easy to see how mobile Firefox browsers really struggle with this technique. I've removed `opacity: 0` and added an `outline` (because of that `!important` border declaration in the UA style sheet. 💩) to make it extra clear. ([Here's a screenshot][screenshot] for those on Freedom-hating platforms (and non-mobile readers)).
 
-So without adding `max-width` or `max-height` it *does* work. It's just the version of working that requires you to guess where a hidden checkbox is and have fingers delicate enough to use it.
+So without adding `max-width` or `max-height` it *does* work. It's just the version of *working* that requires you to guess where a hidden checkbox is (and have fingers delicate enough to use it).
 
 But given that Chrome Mobile, Mobile Safari, Opera Mobile (Presto) Classic™... and probably more don't need the additional `max-width` to work around their UA style sheets, I wonder if we could get away with removing it. We might just fix who-knows-how-many custom styled checkboxes out in the wild in the process of doing so. Or all hell might break loose. Only one way to find out.
 
