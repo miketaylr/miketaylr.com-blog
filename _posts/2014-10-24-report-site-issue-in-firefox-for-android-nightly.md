@@ -8,7 +8,7 @@ Last week we [landed][landed] support for a "native" version of the Webcompat Re
 
 If you're using [Nightly][nightly] on your phone, you might just be the kind of person who notices and reports broken, weird, or otherwise bogus sites. To make that easier, select "Report Site Issue" menu item and you'll end up on [webcompat.com][wc] with the URL of the page pre-filled. You can fill out the rest of the details and either report the problem anonymously, or with your GitHub credentials.
 
-<img src="https://miketaylr.com/posts/assets/reporter.png" alt="screenshots of report site issue menu item">
+<img src="https://miketaylr.com/posts/assets/reporter.png" alt="screenshots of report site issue menu item" style="max-width:100%">
 
 Additionally, if you select "Request Desktop Site" (for whatever reason) you'll get a prompt to report an issue.
 
