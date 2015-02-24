@@ -6,7 +6,7 @@ date:   2015-02-24
 
 Wow, <s>early January</s> late February 2015, time to blog about more exciting web compatibility bugs. 
 
-Lately we've been receiving a number of reports, both in Bugzilla and on webcompat.com, that ehow.com isn't working in Firefox mobile browsers. With compelling articles like [How to blog for cash][blog] and [How do do your own SEO for your blog or website][seo], this is not a great situation for my fellow Firefox Mobile-using-"how-to-get-rich-by-web-logging" friends.
+Lately we've been receiving a number of reports, both in Bugzilla and on webcompat.com, that ehow.com isn't working in Firefox mobile browsers. With compelling articles like [How to blog for cash][blog] and [How to do your own SEO for your blog or website][seo], this is not a great situation for my fellow Firefox Mobile-using-"how-to-get-rich-by-web-logging" friends.
 
 > And now for a brief message from our sponsor, [http://vart.institute/][vart]: go learn about Art and programming and [Mary Cassatt][cassatt]. // TODO(mike): ask jenn for money or how to do SEO.
 
@@ -23,7 +23,7 @@ Impress your friends like so:
 
 ``` 
 if (!'WebKitCSSMatrix' in window && window.DOMMatrix) {
-  window.WebKitCSSMatrix = window.DOMMatrix
+  window.WebKitCSSMatrix = window.DOMMatrix;
 };
 ```
 
