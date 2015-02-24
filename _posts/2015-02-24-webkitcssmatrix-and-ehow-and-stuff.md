@@ -8,11 +8,11 @@ Wow, <s>early January</s> late February 2015, time to blog about more exciting w
 
 Lately we've been receiving a number of reports, both in Bugzilla and on webcompat.com, that ehow.com isn't working in Firefox mobile browsers. With compelling articles like [How to blog for cash][blog] and [How do do your own SEO for your blog or website][seo], this is not a great situation for my fellow Firefox Mobile-using-"how-to-get-rich-by-web-logging" friends.
 
+> And now for a brief message from our sponsor, [http://vart.institute/][vart]: go learn about Art and programming and [Mary Cassatt][cassatt]. // TODO(mike): ask jenn for money or how to do SEO.
+
 The biggest obstacle to getting the site to behave is: `ReferenceError: WebKitCSSMatrix is not defined`. There are few minor CSS issues, but nothing that sprinkling a few unprefixed properties won't solve.
 
 If you're not familiar with WebKitCSSMatrix, Apple has [some docs][apple]. It's pretty cool (and much nicer than using regular expressions to dice up serialized transform matrices and then doing math and string wrangling yourself). Microsoft even has an equivalent called [MSCSSMatrix][ms] (which WebKitCSSMatrix is mapped to for compat reasons). 
-
-> And now for a brief message from our sponsor, [http://vart.institute/][vart]: go learn about Art and programming and [Mary Cassatt][cassatt]. // TODO(mike): ask jenn for money or how to do SEO.
 
 Once upon a time, this thing was specced as [CSSMatrix][w3] in the CSS3 2D Transforms spec, but eventually was removed (because I forget and am too lazy to search through www-style archives). It returned as a superset of CSSMatrix and [SVGMatrix][svgmatrix] and got the sweet new name of DOMMatrix&mdash;which now allows it to be mutuble or immutable, depending on your needs, i.e., do I want a billion new object instances or can I just modify this thing in place.
 
