@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Renaming your homebrew window.Request
+title:  Renaming your window.Request global
 date:   2015-03-17
 ---
 
