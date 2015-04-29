@@ -8,13 +8,13 @@ I was supposed to write this blog post like a year ago, but have been very busy 
 
 Doing some compatibility research on top Japanese sites, [I ran into my old nemesis][jp]: `ReferenceError: onTouchStart is not defined jquery.flexslider.js:397:12`.
 
-I first ran into this in [January of 2014][bug] in its more spooky form `ReferenceError: g is not defined`. Eventually I figured out it was a [problem in a WooThemes jQuery plugin called FlexSlider][tick], the real bug being the undefined behavior of function declarion hoisting in conditions (everyone just nod like that makes sense).
+I first ran into this in [January of 2014][bug] in its more spooky form `ReferenceError: g is not defined`. Eventually I figured out it was a [problem in a WooThemes jQuery plugin called FlexSlider][tick], the real bug being the undefined behavior of function declaration hoisting in conditions (everyone just nod like that makes sense).
 
 In [JavaScript-is-his-co-pilot Juriy's words][kangax],
 
     Another important trait of function declarations is that declaring them conditionally is non-standardized and varies across different environments. You should never rely on functions being declared conditionally and use function expressions instead.
 
-In this case, they were conditionally declaring a function, but referencing it before said declartion in the if block, as an event handler, i.e.,
+In this case, they were conditionally declaring a function, but referencing it before said declaration in the if block, as an event handler, i.e.,
 
 ```js
 if (boop) {
