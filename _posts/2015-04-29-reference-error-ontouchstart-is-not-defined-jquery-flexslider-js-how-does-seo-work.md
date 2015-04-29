@@ -28,9 +28,8 @@ No big deal, easy fix. I wrote a patch. Some people manually patched their sites
 
 We ran into this a few more times in [Bugzilla][fp] and [Webcompat.com][wc] land.
 
-TC-39 bosom buddies Brendan and Allen [noted][c8] [that][c9] ES6 specifies things in such a way that these sites will eventually work in all ES<strike>6</strike>2015 compliant browsers. Here's the [bug][sm] to track that work in SpiderMonkey.
+TC-39 [bosom buddies][bb] Brendan and Allen [noted][c8] [that][c9] ES6 specifies things in such a way that these sites will eventually work in all ES<strike>6</strike>2015 compliant browsers. Here's the [bug][sm] to track that work in SpiderMonkey.
 
-<img src="https://miketaylr.com/posts/assets/brendan-and-allen.jpg" alt="Photo of Brendan Eich and Allen Wirfs-Brock busy at work writing the ES6 spec.">
 
 Cool! Until then, my lonely pull request is still hanging out at [https://github.com/woothemes/FlexSlider/pull/986][pr] (16 months later). The good news is FlexSlider is open source, so you're allowed to fix their bugs by manually apply that patch on your site. Then your touch-enabled slider widget stuff will work in Mobile Firefox browsers.
 
@@ -44,3 +43,4 @@ Cool! Until then, my lonely pull request is still hanging out at [https://github
 [c9]: https://bugzilla.mozilla.org/show_bug.cgi?id=973463#c9
 [pr]: https://github.com/woothemes/FlexSlider/pull/986
 [sm]: https://bugzilla.mozilla.org/show_bug.cgi?id=950547
+[bb]: https://miketaylr.com/posts/assets/brendan-and-allen.jpg
