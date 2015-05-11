@@ -19,7 +19,7 @@ $(window).bind('resize load', function(){
 });
 ```
 
-They're using IE's olde non-standard CSS zoom property (that WebKit implemented back in the Safari 4 days) to retrigger a zoomed out layout on page load, which leads to a pretty harsh Flash of Un-Zoomed-Out Content (FOUZOC) if you're on a third world internet connection (like the one's we have here in Texas).
+They're using IE's olde non-standard CSS zoom property (that WebKit implemented back in the Safari 4 days) to retrigger a zoomed out layout on page load, which leads to a pretty harsh Flash of Un-Zoomed-Out Content (FOUZOC) if you're on a third world internet connection (like the ones we have here in Texas).
 
 Anyways, if you happen to work on circlesunkus.jp, here's how to do this the right way™:
 
