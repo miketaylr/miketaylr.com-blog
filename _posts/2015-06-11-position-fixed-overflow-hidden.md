@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  position&colon; fixed  + overflow&colon; hidden + (plus some relative positioning and z-index stuff)
+title:  position&colon; fixed + overflow&colon; hidden + (plus some relative positioning and z-index stuff)
 date:   2015-06-11
 ---
 
