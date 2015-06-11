@@ -4,7 +4,7 @@ title:  position&colon; fixed + overflow&colon; hidden + (plus some relative pos
 date:   2015-06-11
 ---
 
-If you have an element with `position: fixed` *inside* of an element that has `overflow: hidden`, what's the expected rendering when you need to, uh, overflow? Should the inner fixpos element be clipped or not?
+If you have an element with `position: fixed` *inside* of an element that has `overflow: hidden`, what's the expected rendering when you need to, uh, overflow? Should the inner fixpos element be clipped by its parent or not?
 
 The [spec appears to be pretty clear][spec].
 
@@ -44,6 +44,10 @@ So it seems like non-Edge and non-Firefox browsers treat a `position: fixed` ele
 Unfortunately at least one site relies on this bug (see [this comment][bug]).
 
 If you happen to know why, send a self-addressed stamped envelope to [twitter dot com slash miketaylr][tw] and let me know.
+
+**UPDATE**
+
+See https://twitter.com/gregwhitworth/status/609095284010852352 from @gregwhitworth. I'll try to write a follow-up post when I understand everything.
 
 [spec]: http://dev.w3.org/csswg/css-position/#fixed-pos
 [tc1]: https://miketaylr.com/bzla/fixed-overflow-1.html
