@@ -12,7 +12,7 @@ Beginning in Firefox for Android 41, the default UA string will contain the Andr
 
 `Mozilla/5.0 (Android <Android version>; Mobile; rv:<Gecko version>) Gecko/<Gecko version> Firefox/<Gecko version>`
 
-And perhaps the only things that developers love more than changing UA strings is when changes **conditionally**.
+And perhaps the only things that developers love more than changing UA strings is when they change **conditionally**.
 
 So, for interoperability with the [wild and crazy web][bc], if a user is on a version of Android lower than 4 (which we still support), we will report the Android version as 4.4. Versions 4 and above will accurately reflect the Android version.
 
