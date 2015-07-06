@@ -47,7 +47,7 @@ If you happen to know why, send a self-addressed stamped envelope to [twitter do
 
 **UPDATE**
 
-See https://twitter.com/gregwhitworth/status/609095284010852352 from @gregwhitworth. I'll try to write a follow-up post when I understand everything.
+See [https://twitter.com/gregwhitworth/status/609095284010852352][tw2] from @gregwhitworth. I'll try to write a follow-up post when I understand everything.
 
 [spec]: http://dev.w3.org/csswg/css-position/#fixed-pos
 [tc1]: https://miketaylr.com/bzla/fixed-overflow-1.html
@@ -55,3 +55,4 @@ See https://twitter.com/gregwhitworth/status/609095284010852352 from @gregwhitwo
 [tc3]: https://miketaylr.com/bzla/fixed-overflow-3.html
 [bug]: https://github.com/webcompat/web-bugs/issues/917#issuecomment-106949164
 [tw]: https://twitter.com/miketaylr
+[tw2]: https://twitter.com/gregwhitworth/status/609095284010852352
