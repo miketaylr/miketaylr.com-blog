@@ -38,7 +38,7 @@ The standard `MouseEvent` property to use when you're trying to figure out what 
 
 (And if you're into C++ or whatever, you can see that WebKit's `event.toElement` is [just an alias for `relatedTarget`][wkimp].)
 
-Prototype.js&mdash;which the Valve site uses&mdash;even extends the `event` object with a polyfilled `relatedTarget`, but naturally only for IE.
+Prototype.js&mdash;which the Valve site uses in various places&mdash;knew this property was goofy so it extends the `event` object with a polyfilled `relatedTarget`, but naturally only for IE.
 
 ```js
 if (window.attachEvent) {
@@ -66,7 +66,7 @@ if (window.attachEvent) {
   });
 ```
 
-You might be thinking, uh oh, Edge dropped support for `attachEvent`, this should be broken there too! But they've apparently kept that for compat reasons ([simple test here][test]).
+You might be thinking, uh oh, Edge dropped support for `attachEvent`, this should be broken there too! But they've apparently kept that for compat reasons ([simple test here][test]). So yay I guess.
 
 Anyways. The good folks at Valve [have fixed the menu internally][fix] and it should be possible to buy {insert hilarious video game joke so people think I'm cool here} from a dropdown menu item using Firefox (or any other future browser that doesn't implement this quirk). If you happen to have commit access to any code using `toElement` feel free to rip it out and replace it with `relatedTarget`.
 
