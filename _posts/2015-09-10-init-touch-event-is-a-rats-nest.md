@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  initTouchEvent is a rat's nest.
+title:  initTouchEvent is a rat's nest
 date:   2015-09-10
 ---
 
