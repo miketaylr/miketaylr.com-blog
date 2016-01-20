@@ -16,13 +16,12 @@ As it turns out other browsers have been [updated to support 3D CSS transforms][
 
 So, anyways. I added [`@media (-webkit-transform-3d)` to the Compat Standard][spec] and we [added support for it Firefox][fx] so websites stop breaking.
 
-But you shouldn't ever use it&mdash;use `@supports` or [`matchMedia`][mm] instead. In fact, don't even share this blog post. Maybe delete it from your browser history just in case.
+But you shouldn't ever use it&mdash;use `@supports`. In fact, don't even share this blog post. Maybe delete it from your browser history just in case.
 
 [spec]: https://compat.spec.whatwg.org/#css-media-queries-webkit-transform-3d
 [docs]: https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariCSSRef/Articles/OtherStandardCSS3Features.html#//apple_ref/doc/uid/TP40007601-SW3
 [mqf]: https://drafts.csswg.org/mediaqueries-4/#mq-features
 [sup]: https://developer.mozilla.org/en-US/docs/Web/CSS/@supports
-[mm]: https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia
 [test]: https://github.com/patrickkettner/Modernizr/commit/a54308e47e269a058472854b1ef417bd54f4e616
 [wc]: https://github.com/webcompat/web-bugs/issues/2151
 [yahoo]: https://bugzilla.mozilla.org/show_bug.cgi?id=1239136
