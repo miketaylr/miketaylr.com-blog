@@ -87,7 +87,7 @@ lol()
 .
 .
 
-Trick question, your program crashed before you could call `lol()`!
+Trick question, your program crashed before it got to call `lol()`!
 
 According to ES2015, it should be a `SyntaxError`, because you're redefining a function declaration in the same scope. Just like if you were re-declaring a `let` thingy more than once.
 
