@@ -4,7 +4,7 @@ title: A quiz about ES2015 block-scoped function declarations (in a with block s
 date:   2016-02-04
 ---
 
-Quiz time, friends.
+Quiz time, nerds.
 
 Given the following bit of JS, what's the value of `window.f` when `lol` gets called outside of the `with` statement?
 
