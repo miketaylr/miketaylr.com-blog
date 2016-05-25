@@ -4,7 +4,7 @@ title: Neil deGrasse Tyson is blurry
 date: 2016-05-25
 ---
 
-In [Bug 1275069][bug] (which I stumbled upon thanks to one of my "Neil deGrasee Tyson" bugmail filters), we run into an interesting bug that's the result of same origin policy restrictions and vendor prefixes.
+In [Bug 1275069][bug] (which I stumbled upon thanks to one of my "Neil deGrasse Tyson" bugmail filters), we run into an interesting bug that's the result of same origin policy restrictions and vendor prefixes.
 
 For those unfamilar with how Buzzfeed works, frequently you get a list of blurry images and click on them for a dramatic reveal. Riveting stuff.
 
