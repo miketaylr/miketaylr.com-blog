@@ -18,9 +18,9 @@ Here's what that SVG `<filter>` looks like in devtools:
 
 <img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/sop.png">
 
-The problem is that `img.buzzfeed.com` is a [different origin][sop] from `www.buzzfeed.com` and that server isn't sending any CORS headers, so Firefox doesn't actually render the filter (...or the image at all, that seems weird to me, see [1105145][1105145]).
+The problem is that `img.buzzfeed.com` is a [different origin][sop] from `www.buzzfeed.com` and that server isn't sending any CORS headers, so Firefox doesn't actually render the filter (...or the image at all. That seems weird to me&mdash;see [1105145][1105145]).
 
-OK, whatever. I still want to click on that to see some sensuous lounging the user is probably thinking.
+OK, whatever. I still want to click on that to see some sensuous lounging (the user is probably thinking).
 
 And the plan is that once you click the (missing) blurry image, they remove the inline style with the filter `url()` function, but, oops now the following class applies (they remove the entire class in other browsers):
 
