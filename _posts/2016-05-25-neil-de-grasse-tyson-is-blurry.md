@@ -39,7 +39,7 @@ So just when you thought you were gonna get the big Neil deGrasse Tyson reveal, 
 
 <img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/blurry.png">
 
-Until we [added support for `-webkit-filter` as an alias of (unprefixed) `filter`][filter] (`-moz-filter` was never like, a thing), that rule was ignored.
+(Until we [added support for `-webkit-filter` as an alias of (unprefixed) `filter`][filter] (`-moz-filter` was never like, a thing), that rule was ignored, fun!)
 
 Anyways, in your own web journalism going forward, you can just use unprefixed CSS blur filters and skip the [super fragile UA sniffing code paths][sniff].
 
