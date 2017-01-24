@@ -17,6 +17,8 @@ function FP_preloadImgs() {//v1.0
    d.FP_imgs[i].src=a[i];
  }
 }
+
+FP_preloadImgs(/*url*/'images/button6.jpg',/*url*/'images/button5.jpg');
 ```
 .
 .
