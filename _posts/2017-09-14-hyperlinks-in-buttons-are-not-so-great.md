@@ -8,7 +8,7 @@ Over in [web-bug #9726][webbug], there's an interesting issue reported against [
 
 Basically, they had an HTML `<button>` that when clicked would `display:block` a descendent `<dialog>` element that contained some hyperlinks to help you create a new project.
 
-<img src="http://miketaylr.com/posts/assets/glitch.png" style="border: 1px solid #ccc;" alt="screenshot of glitch.com button">
+<img src="https://miketaylr.com/posts/assets/glitch.png" style="border: 1px solid #ccc;" alt="screenshot of glitch.com button">
 
 The [simplest test case][demo]:
 
