@@ -12,11 +12,11 @@ date: 2017-10-17
 
 The issue here is a mixture of web standards interoperability failure (more on that in a second) and inability to predict the future by FastClick (more on that now).
 
-So if you don't know much about FastClick, or why it was so popular, put on 2012's "Now That's What I Call Music! Volume 44" to set the mood and read their GitHub page.
+So if you don't know much about FastClick, or why it was so popular, put on 2012's "Now That's What I Call Music! Volume 44" to set the mood and read their [GitHub page][ghpage]
 
 <img src="https://miketaylr.com/posts/assets/music.png" style="border: 1px solid #ccc;" alt="Cover of Now Thats What I Call Music Volume 44 album">
 
-Back in 2012, when tapping on things in mobile browsers was slow (because browsers had a 300ms delay between a `touchend` event and a `click` event), it was cool to use FastClick to make tapping on things fast. Jake Archibald has a [good article on this][and] and how to get rid of it these days (tl;dr make your site's viewport mobile friendly).
+Back in 2012, when tapping on things in mobile browsers was slow (because browsers always had a 300ms delay between a `touchend` event and a `click` event), it was cool to use FastClick to make tapping on things fast. Noted [soda water critic][soda] Jake Archibald has a [good article on this][and] and how to get rid of it these days (tl;dr make your site's viewport mobile friendly).
 
 (Note: the article is a bit dated given that Firefox didn't support `touch-action: manipulation` when it was authored, but it [does now][mdn], so consider that another option.)
 
@@ -47,3 +47,5 @@ In conclusion, if you run into bugs with FastClick, maybe consider deleting it f
 [bugs]: https://github.com/ftlabs/fastclick/search?q=select&type=Issues&utf8=%E2%9C%93
 [readme]: https://github.com/ftlabs/fastclick/commit/d4107a4e8aa1698bb5f234b4e685d7f717c4e818
 [tam]: https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action#manipulation
+[ghpage]: https://labs.ft.com/fastclick/
+[soda]: https://twitter.com/ChromiumDev/status/912347493165420544
