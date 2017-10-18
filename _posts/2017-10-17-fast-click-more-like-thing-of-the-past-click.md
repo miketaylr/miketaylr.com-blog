@@ -10,15 +10,15 @@ date: 2017-10-17
 
 (In that the `<select>` doesn't function at all if you're on Android, unless you're using Chrome Mobile. Just like middle school&mdash;trust me this analogy makes total sense, 7th grade was really hard for me and I'm still working through it, OK.)
 
-The issue here is a mixture of web standards interoperability failure (more on that in a second) and inability to predict the future by FastClick (more on that now).
+The issue here is the result of a web standards interoperability failure (more on that in a second, there's a happy ending I swear) and the inability to predict the future of the web platform and browsers by FastClick (more on that now).
 
-So if you don't know much about FastClick, or why it was so popular, put on 2012's "Now That's What I Call Music! Volume 44" to set the mood and read their [GitHub page][ghpage]
+So if you don't know much about FastClick, or why it was so popular, put on 2012's "Now That's What I Call Music! Volume 44" to set the mood and read their [GitHub page][ghpage].
 
 <img src="https://miketaylr.com/posts/assets/music.png" style="border: 1px solid #ccc;" alt="Cover of Now Thats What I Call Music Volume 44 album">
 
 Back in 2012, when tapping on things in mobile browsers was slow (because browsers always had a 300ms delay between a `touchend` event and a `click` event), it was cool to use FastClick to make tapping on things fast. Noted [soda water critic][soda] Jake Archibald has a [good article on this][and] and how to get rid of it these days (tl;dr make your site's viewport mobile friendly).
 
-(Note: the article is a bit dated given that Firefox didn't support `touch-action: manipulation` when it was authored, but it [does now][mdn], so consider that another option.)
+(The article is a bit dated given that Firefox didn't support `touch-action: manipulation` when it was authored, but it [does now][mdn], so consider that another option.)
 
 OK, so. Anyways. The way this library works is to dispatch its own synthetic `click` event after a `touchend` event, without the 300ms delay. This is all great and fine for links. Things get trickier for inputs like `<select>`, because there's never really been a web standards way to programatically open them via JS.
 
@@ -30,7 +30,9 @@ Fast foward a few years and Chrome [fixed their untrusted events default action 
 
 Anyways, this blog post is getting too long.
 
-In conclusion, if you run into bugs with FastClick, maybe consider deleting it from your app. [It's basically unmaintained and they don't want you to use it either][readme]. And besides, we have [`touch-action: manipulation`][tam] anyways.
+In conclusion, if you run into bugs with FastClick, you should probably delete it from your app. [It's basically unmaintained and they don't want you to use it either][readme].
+
+And besides, we have [`touch-action: manipulation`][tam] anyways.
 
 
 
