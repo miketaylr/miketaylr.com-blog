@@ -8,7 +8,7 @@ date: 2017-10-17
 
 [web-bug 12553][bug] describes an issue where a pretty famous 3rd party library, [FastClick.js][fc] turns `<select>`-level awkward to middle-school-dance-party-level awkward.
 
-(In that the `<select>` doesn't function at all if you're on Android, unless you're using Chrome Mobile. Just like middle school&mdash;trust me this analogy makes total sense, 7th grade was really hard for me and I'm still working through it, OK.)
+(In that the `<select>` doesn't function at all if you're on Android, unless you're using Chrome Mobile (depending on what FastClick version you're running). Just like middle school&mdash;trust me this analogy makes total sense, 7th grade was really hard for me and I'm still working through it, OK.)
 
 The issue here is the result of a web standards interoperability failure (more on that in a second, there's a happy ending I swear) and the inability to predict the future of the web platform and browsers by FastClick (more on that now).
 
