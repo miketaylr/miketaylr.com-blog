@@ -1,7 +1,7 @@
 name: miketaylrdotcom
 permalink: /:year/:month/:title.html
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 
 # Used for my rss.xml template
 name: Mike Taylr Dot Com Web Log
