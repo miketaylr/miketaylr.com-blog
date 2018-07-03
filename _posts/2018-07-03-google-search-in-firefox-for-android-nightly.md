@@ -18,8 +18,7 @@ If you've found a bug, please report it at https://webcompat.com/issues/new.
 
 And in the meantime, if the bugs are too annoying to deal with, you can disable it by going to `about:config` and setting `extensions.gws-and-facebook-chrome-spoof.enabled` to false (just search for `gws`).
 
-
-<p><img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/about-config.png">
+<img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/about-config.png">
 
 (yeah, yeah, I'll go charge my phone now.)
 
