@@ -12,7 +12,7 @@ Why?
 
 In order to turn this situation around, we've been working on a number of [platform][platform] [interop][interop] bugs (in collaboration with some friendly members of the Blink team) and have hopes in making progress towards receiving Tier 1 search by default. 
 
-Part of the plan is to sniff out bugs we don't know about (or new bugs, as the site changes very quickly) by exposing the Nightly population to the spoofed Tier 1 version for 4 weeks. If things get too bad, we can of back out the addon earlier.
+Part of the plan is to sniff out bugs we don't know about (or new bugs, as the site changes very quickly) by exposing the Nightly population to the spoofed Tier 1 version for 4 weeks (which should be [July 27, 2018][backout]). If things get too bad, we can of back out the addon earlier.
 
 If you've found a bug, please report it at https://webcompat.com/issues/new. 
 
@@ -29,3 +29,4 @@ And in the meantime, if the bugs are too annoying to deal with, you can disable 
 [interop]: https://github.com/webcompat/web-bugs/labels/type-GWS-interop
 [platform]: https://bugzilla.mozilla.org/buglist.cgi?list_id=14217487&status_whiteboard_type=anywordssubstr&status_whiteboard=%5Bwebcompat%3Ap1%5D%20%5Bwebcompat%3Ap2%5D&resolution=---&query_format=advanced&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED
 [filter]: about:config?filter=gws
+[backout]: https://bugzilla.mozilla.org/show_bug.cgi?id=1472220
