@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google Tier 1 Search in Firefox for Android Nightly
-date: 2018-07-103
+date: 2018-07-03
 ---
 
 Late last week we [quietly landed][bug] a Nightly-only addon that spoofs the Chrome Mobile user agent string for Google Search (well, Facebook too, but that's another blog post).
@@ -14,7 +14,12 @@ In order to turn this situation around, we've been working on a number of [platf
 
 If you've found a bug, please report it at https://webcompat.com/issues/new. 
 
-And if the bugs are too annoying to deal with, you can disable it by going to `about:config` and setting `extensions.gws-and-facebook-chrome-spoof.enabled` to false (just search for `gws` or click on [about:config?filter=gws][filter]) if you're reading this on a phone.
+And if the bugs are too annoying to deal with, you can disable it by going to `about:config` and setting `extensions.gws-and-facebook-chrome-spoof.enabled` to false (just search for `gws`.
+
+
+<p><img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/about-config.png">
+
+(yeah, yeah, I'll go charge my phone now.)
 
 
 [bug]: https://bugzilla.mozilla.org/show_bug.cgi?id=1453691#c52
