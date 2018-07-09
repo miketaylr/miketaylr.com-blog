@@ -14,11 +14,11 @@ In order to turn this situation around, we've been working on a number of [platf
 
 Part of the plan is to sniff out bugs we don't know about (or new bugs, as the site changes very quickly) by exposing the Nightly population to the spoofed Tier 1 version for 4 weeks (which should be [July 27, 2018][backout]). If things get too bad, we can back out the addon earlier.
 
-If you've found a bug, please report it at https://webcompat.com/issues/new. 
+If you've found a bug, please report it at <a href="https://webcompat.com/issues/new">https://webcompat.com/issues/new</a>. 
 
 And in the meantime, if the bugs are too annoying to deal with, you can disable it by going to `about:config` and setting `extensions.gws-and-facebook-chrome-spoof.enabled` to false (just search for `gws`).
 
-> Note: don't hit reset; instead, tap the `true`/`false` value and then hit toggle when that appears.
+**Note: don't hit reset; instead, tap the `true`/`false` value and then hit toggle when that appears.**
 
 <img style="width: 75%; height: 75%; border: 1px solid #ccc;" src="https://miketaylr.com/posts/assets/about-config.png">
 
