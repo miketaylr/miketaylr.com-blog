@@ -10,7 +10,7 @@ The final post-v4 release desktop UA string is as follows:
 
 Mozilla/5.0 (&lt;platform>; rv:&lt;geckoversion>) Gecko/20100101 Firefox/&lt;firefoxversion>
 
-As sort of a companion peice (that nobody asked for), I wrote up the following table of minor changes to the pre-release desktop UA string between then and now. 
+As sort of a companion piece (that nobody asked for), I wrote up the following table of minor changes to the pre-release desktop UA string between then and now. 
 
 (You know, in case you or I find ourselves needing to know them one day&mdash;apologies in advance for whatever crappy future scenario we ended up in where we need to re-visit this blog post.)
 
