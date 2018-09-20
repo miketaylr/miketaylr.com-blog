@@ -54,7 +54,7 @@ Footnotes:
 </sup>
 <sup id="fn4">4. Version 46 also added the ability to add the Android device name, controlled by the pref `general.useragent.use_device`. This is probably not widely used, if at all.</sup>
 
-<sup id="fn5">5. Version 46 added the ability to add a custom device string, with optional device ID, controlled by the pref `general.useragent.device_string`. This is also probably not widely used, it at all.
+<sup id="fn5">5. Version 46 added the ability to add a custom device string, with optional device ID, controlled by the pref `general.useragent.device_string`. This is also probably not widely used, if at all.
 </sup>
 
 Footnotes to the Footnotes:
