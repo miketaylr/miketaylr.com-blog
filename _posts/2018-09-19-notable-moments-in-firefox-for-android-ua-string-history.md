@@ -8,6 +8,8 @@ Back by popular demand*, here's a follow-up to my [blog post on Firefox Desktop 
 
 (\*actual demand for this blog post asymptotically approaches zero the further you read)
 
+Early versions of Firefox for Android used a Linux desktop UA string with a `Fennec/<fennecversion>` product token appended to the end.
+
 Since version 41, Firefox for Android has (generally) followed the following UA string format:
 
 Mozilla/5.0 (Android &lt;androidversion>; &lt;devicecompat>; rv: &lt;geckoversion>) Gecko/&lt;geckoversion> Firefox/&lt;firefoxversion>
@@ -21,6 +23,10 @@ Mozilla/5.0 (Android &lt;androidversion>; &lt;devicecompat>; rv: &lt;geckoversio
 <tr>
   <th>Gecko Version</th>
   <th>Sample Firefox for Android UA string</th>
+</tr>
+<tr>
+  <td>4</td>
+  <td>Mozilla/5.0 (Android; Linux armv7l; rv:2.1.1) Gecko/20110415 Firefox/4.0.2pre Fennec/4.0.1</td>
 </tr>
 <tr>
   <td>11</td>
