@@ -64,7 +64,7 @@ function deleteAndBackspaceKeyHandling(ed, e) {
 }
 ```
 
-`KEY_CODE.BACKSPACE` is 46. 46 is the code for a PERIOD in a keypress event, but the code for BACKSPACE in keydown/keyup events. So in Firefox, and Firefox only, it thinks its seeing a backspace and prevents the default action (which is to let the user type the period).
+`KEY_CODE.BACKSPACE` is 46. 46 is the code for a PERIOD in a keypress event, but the code for BACKSPACE in keydown/keyup events. So in Firefox, and Firefox only, it thinks it's seeing a backspace and prevents the default action (which is to let the user type the period).
 
 Confluence is especially tricky because they offer a self-hosted version in addition to their cloud-hosted thing. Breaking intranet webapps is a non-starter, so we've prevented this set of changes from shipping to release (again). And we'll try to come up with some creative hack so we can fix a ton of mobile sites but not break outdated intranet Confluence instances.
 
