@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A historical look at lowercase defaultstatus
-date:   2019-02-15
+date:   2019-03-08
 ---
 
 The other day I was doing some research on DOM methods and properties that Chrome implements, and has a usecounter for, but don't exist in Firefox.
