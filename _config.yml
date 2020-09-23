@@ -1,6 +1,6 @@
 name: miketaylrdotcom
 permalink: /:year/:month/:title.html
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 
 # Used for my rss.xml template
