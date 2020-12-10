@@ -27,7 +27,7 @@ There's a [page on MSDN][msdn] that defines `cpuClass`, which appears to be an I
 
 The good news is that WebKit and Blink browsers don't implement either of these wacky interfaces.
 
-Guys, sniffing for CPU architecture on the web is weird.
+Y'all, sniffing for CPU architecture on the web is weird.
 
  So let's not start using them now in 2013, deal? I have no idea what kind of optimizations the developers of Hover are trying to sneak in for Windows RT* tablets (or phones or whatever). But I think they're probably doing it at the wrong abstraction level.
 
