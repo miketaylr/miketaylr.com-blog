@@ -18,6 +18,8 @@ For example:
 
 `git checkout -b parsing_html_with_regex_in_the_year_2021/2`
 
+(edit: It's been out to me that this example does not follow my own advice because there's no `<bug-number>`, but instead `<mike_trying_to_make_a_joke>`. Oops.)
+
 As a side benefit, when you go to write a commit message you don't have to go hunting for the bug number in your N² + 1 open tabs (where N is the number of hours you've been working on the patches), because it's in the branch name.
 
 <img alt="screenshot of a git commit prompt which also shows the branch name by default" src="https://miketaylr.com/posts/assets/git-branch.png" style="border:1px solid #ccc">
