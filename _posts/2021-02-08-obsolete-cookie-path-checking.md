@@ -10,7 +10,7 @@ The other day I was reading Firefox's [CookieService.cpp][cs] to figure out how 
 The following test is part of the RFC2109 spec.  Loosely speaking, it says that a site cannot set a cookie for a path that it is not on.  See bug 155083.  However this patch broke several sites -- nordea (bug 155768) and citibank (bug 156725).  So this test has been disabled, unless we can evangelize these sites.
 ```
 
-Note 1: Anything having to do with broken websites is wont to catch my attention, especially olde bugs (let's face it, in 2002 the internet was basically the High Middle Ages. Like yeah, we were killing it with the technological innovation on top of windmills and we're getting pretty good at farming and what not, but it's still the Middle Ages compared to today).
+Note 1: Anything having to do with broken websites is wont to catch my attention, especially olde bugs (let's face it, in 2002 the internet was basically the High Middle Ages. Like yeah, we were killing it with the technological innovation on top of windmills and we're getting pretty good at farming and what not, but it's still the Middle Ages compared to today and kind of sucked).
 
 Note 2: The two sites referenced in the Firefox comment are banks (see [155768][155768] and [156725][156725]). And one of the axioms of web compatibility is that if you break a bank with some cool new API or non-security bug fix, game over, it's getting reverted. And I'm *pretty sure* you can't _legally_ create test accounts for banks to run tests against and [Silk Road][sr] got taken down by the feds.
 
@@ -36,7 +36,7 @@ These days, rfc6265 (and [6265bis][6265]) is much more pragmatic and states exac
 …the Path attribute does not provide any integrity protection because the user agent will accept an arbitrary Path attribute in a Set-Cookie header.
 ```
 
-Never one to pass up on an opportunity to deleting things, I wrote some patches for [Firefox][bz] and [Chromium][cr] so maybe someone reading Cookie code in the future doesn't get distracted.
+Never one to pass up on an opportunity to delete things, I wrote some patches for [Firefox][bz] and [Chromium][cr] so maybe someone reading Cookie code in the future doesn't get distracted.
 
 Aside 1: Awkwardly my moz-phab account has been disabled, so I just attached the patch file using Splinter like it's 2002 (more Medieval code review tech references).
 
