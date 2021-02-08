@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Obsolte RFCs and obsolete Cookie Path checking comments
+title:  Obsolete RFCs and obsolete Cookie Path checking comments
 date:   2021-02-08
 ---
 
@@ -24,7 +24,7 @@ To prevent possible security or privacy violations, a user agent rejects a cooki
 
 Well, as documented, that wasn't really web-compatible, and it's kind of a theoretical concern (so long as you enforce path-match rules before handing out cookies from the cookie jar. ¯\\\_(ツ)_/¯). So Firefox commented out the conditional that would reject the cookie and added the comment above in question. As a result, people's banks starting working in Firefox again (in 2002, remmeber, so people could check their online balance then hit up the ATM to buy Beyblades and Harry Potter merch, and whatever else was popular back then).
 
-My colleague Lily pointed out that Chromium has a similar comment in [canoncical_cookie.cc][cc]:
+My colleague Lily pointed out that Chromium has a similar comment in [canonical_cookie.cc][cc]:
 
 ```
 The RFC says the path should be a prefix of the current URL path. However, Mozilla allows you to set any path for compatibility with broken websites.  We unfortunately will mimic this behavior.  We try to be generous and accept cookies with an invalid path attribute, and default the path to something reasonable.
