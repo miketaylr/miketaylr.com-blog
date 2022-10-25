@@ -8,7 +8,7 @@ Over the weekend frontend-firebrand [Alex Russell tweeted][art] that it's confus
 
 (btw, I asked DALLE2 Alex's question "Can *you* make hide or hare of this?", and yeah, it mostly can.)
 
-<img alt="a photorealistic AI-generated image of a rabbit in a field. both of its ears appear to be on the same side of its head" src="https://miketaylr.com/posts/assets/hide-or-hair.png" style="border:1px solid #ccc; width: 100%">
+<img alt="a photorealistic AI-generated image of a rabbit in a field. both of its ears appear to be on the same side of its head" width="600" height="475" src="https://miketaylr.com/posts/assets/hide-or-hair.png" style="border:1px solid #ccc; width: 100%">
 
 Before I spend any energy improving the docs ([thanks for the bug, Alex][bug]), let me try to give the simplest answer to the question: how do I find out what major version of Chromium a user is one in the year 2022+?
 
