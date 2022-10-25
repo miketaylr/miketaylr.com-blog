@@ -10,7 +10,7 @@ Over the weekend frontend-firebrand [Alex Russell tweeted][art] that it's confus
 
 <img alt="a photorealistic AI-generated image of a rabbit in a field. both of its ears appear to be on the same side of its head" src="https://miketaylr.com/posts/assets/hide-or-hair.png" style="border:1px solid #ccc; width: 100%">
 
-Before I spend any energy improving the docs ([thanks for the bug, Alex][bug]), let me try to give the simplest answer to the question: how do I find out what major version of Chromium a user is one in the year 2022+?
+Before I spend any energy improving the docs ([thanks for the bug, Alex][bug]), let me try to give the simplest answer to the question: how do I find out what major version of Chromium a user is on in the year 2022+?
 
 There's two ways to go about this.
 <br>
