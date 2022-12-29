@@ -14,7 +14,7 @@ And as of [last week][bug], the UA string in Firefox for versions 110 and higher
 
 If you managed to visually discover the difference (I guess in the world's lamest "Spot the Difference" game), congrats. If you didn't, take note that `rv:109.0` _did not_ change in the second one&mdash;but `Firefox/110.0` _did_.
 
-So why did Mozilla just freeze `rv:109.0` in the desktop (but [not mobile, because, um unit tests][c14]?) User-Agent string? Perhaps forever, or just [perhaps until Firefox 120 is released][bug2]?
+So why did Mozilla just freeze `rv:109.0` in the User-Agent string? Perhaps forever, or just [perhaps until Firefox 120 is released][bug2]?
 
 Presumably in an attempt to unburden itself from a legacy of UA-sniffing-driven workarounds for a browser that hadn't historically supported a lot of useful things (like WebGL, or some ES5 or ES6 stuff - I don't really remember and can't be bothered to look it up), the IE team decided to change up their User-Agent string back in 2013.
 
