@@ -8,7 +8,7 @@ If you happen to be using Firefox Beta 109 on an overpriced MacBook Pro that has
 
 `Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0`
 
-And as of [last week][bug], the UA string in Firefox for versions 110 and higher look like:
+And as of [last week][bug], the UA string in Firefox for versions 110 and higher looks like:
 
 `Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/110.0`
 
